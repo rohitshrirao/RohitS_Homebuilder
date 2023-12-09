@@ -1,0 +1,46 @@
+.header-bg{
+	background: #00043c;
+}
+
+.navbar-nav a:hover{
+	text-decoration: underline; 
+}
+
+#details i{
+	font-size: 70px;
+	text-align: center;
+}
+
+#three-div i{
+	font-size: 70px;
+}
+
+#img{
+	height: 620px;
+	background:url(https://www.mining.com/wp-content/uploads/2017/04/caterpillar-soars-first-quarter-sales-jump-first-time-two-years.jpg);
+	background-size: 150% 100%;
+}
+
+#six-div div img{
+	 height:300px;
+	 background-size: 100% 100%;
+	 transition: transform 5s;
+}
+
+#six-div div:hover img{
+	transform: scale(1,1.2);
+}
+
+#about i:hover{
+	color: grey;
+}
+
+#top{
+	position: fixed !important;
+	bottom: 15px;
+	right: 20px;
+}
+
+#top i{
+	font-size: 35px;
+}
